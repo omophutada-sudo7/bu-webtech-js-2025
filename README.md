@@ -1,0 +1,2 @@
+- Nicname : Omo
+- Fvourite Food : Gyoza
