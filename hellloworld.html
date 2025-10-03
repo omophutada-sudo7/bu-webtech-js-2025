@@ -13,14 +13,14 @@
         let user_input = prompt('Input number : ');
         user_input = Number(user_input);
 
-        if(isNaN(user_input)){
-            alert('Not Correct, try again later')
-        } else if (user_input === 0) {
+        if (user_input === 0) {
             alert('The number is Zero')
         } else if (user_input %2 === 0){
             alert('Even Number')
-        } else {
+        } else if (user_input %2 === 1){
             alert('Odd Number')
+        } else {
+            alert('Not a Number !')
         }
         </script>
     <script src="javascripts/testjs.js">
